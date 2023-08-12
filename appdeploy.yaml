@@ -27,6 +27,6 @@
         minutes: 1
     - name: Confirm that 200 OK response is returned
       uri:
-        url: "http://{{ ansible_host }}:8080/maven-web-application/"
+        url: "http://{{ ansible_host }}:8080/maven-web-application-mamatha/"
         status_code: 200    
 ...
